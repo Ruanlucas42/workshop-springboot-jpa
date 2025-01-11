@@ -34,11 +34,11 @@ public class User implements Serializable{
 	public User() {
 	}
 
-	public User(Long id, String name, String emial, String phone, String password) {
+	public User(Long id, String name, String email, String phone, String password) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.email = emial;
+		this.email = email;
 		this.phone = phone;
 		this.password = password;
 	}
@@ -59,12 +59,12 @@ public class User implements Serializable{
 		this.name = name;
 	}
 
-	public String getEmial() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setEmial(String emial) {
-		this.email = emial;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getPhone() {
